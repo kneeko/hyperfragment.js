@@ -58,7 +58,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 				});
 			});
 
-			// elements assosiated with a section should be updated, but not replaced
+			// elements associated with a section should be updated
 			var el = xml.querySelector("meta[name=\"section\"]");
 			if (el) {
 				var section = el.getAttribute("content");
